@@ -1,4 +1,4 @@
-body:not(:active) {
+body {
   background: linear-gradient(125deg, #25B3E5, #9198e5 65%);
   animation-name: transition;
     animation-duration: 4s;
