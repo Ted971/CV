@@ -19,6 +19,12 @@ body {
 	
 }
 
+.Stage h3 {
+	font-size: 100px;
+	text-align: center;
+	height: 672px;
+}
+
 .menu {
   margin: auto;
   position: static;
@@ -36,7 +42,6 @@ body {
   position: static;
   margin-right: 1ex ;
   border-radius: 1ex;
-  width: 20%;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
@@ -67,12 +72,22 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   border: solid;
   text-align: center;
-  font-size:20px;
+  font-size:40px;
 }
 
+.bienvenue a {
+	font-size: 100px;
+	text-decoration: none;
+	color: #000;
+}
+
+.bienvenue a:hover,a:focus {
+  color: #ffff;
+  background-color: #000;
+}
 
 .bienvenue h1 {
-  font-size: 50px;
+  font-size: 100px;
 }
 
 .placeholder {
@@ -130,7 +145,8 @@ body {
 	left: 1100px;
 	top: 100px;
 	width: 800px;
-	height: 400px;
+	height: 333px;
+	border: solid #25B3E5;
 	overflow: auto;
 }
 
@@ -141,7 +157,8 @@ body {
 	right: 800px;
 	top: 100px;
 	width: 800px;
-	height: 400px;
+	height: 333px;
+	border: solid #25B3E5;
 	overflow: auto;
 }
 
